@@ -3,7 +3,7 @@ export default function iterateThroughObject(reportWithIterator) {
   for (const idx of reportWithIterator) {
     if (idx === reportWithIterator[0]) {
       st = idx;
-      continue;
+        continue;
     }
     st = `${st} | ${idx}`
   }
