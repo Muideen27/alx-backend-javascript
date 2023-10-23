@@ -52,16 +52,13 @@ To install NodeJS 12.11.x, you can follow these steps:
 
    ```bash
    nodejs -v
-   # Should output: v12.11.1
+   Should output: v12.11.1
 
    npm -v
-   # Should output: 6.11.3
+   Should output: 6.11.3
 
-### Install Jest, Babel, and ESLint
-In your project directory, you can install Jest, Babel, and ESLint by using the supplied package.json
-
-   ```bash
-   npm install
+In your project directory, you can install Jest, Babel, and ESLint by using the supplied package.json then run
+   ```npm install```
 
 ### Usage
 You can use the code in this repository to explore and practice ES6 classes and OOP concepts in JavaScript. Make sure to follow the requirements and setup instructions mentioned above.
@@ -73,7 +70,3 @@ If you have any questions or need to reach out, you can contact the project main
 - **Name:** Muideen
 - **Email:** [ilorimuideen000@gmail.com](mailto:ilorimuideen000@gmail.com)
 - **Twitter:** [@IloriMuideen](https://twitter.com/IloriMuideen)
-
-
-
-sudo bash nodesource_setup.sh
