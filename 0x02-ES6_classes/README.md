@@ -37,5 +37,43 @@ To install NodeJS 12.11.x, you can follow these steps:
 
    ```bash
    curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+   
+2. Run the setup script
+   
+   ```bash
+   sudo bash nodesource_setup.sh
+   
+4. Install Node.js
+   
+   ```bash
+   sudo apt install nodejs -y
+   
+6. Verify the installation
+
+   ```bash
+   nodejs -v
+   # Should output: v12.11.1
+
+   npm -v
+   # Should output: 6.11.3
+
+### Install Jest, Babel, and ESLint
+In your project directory, you can install Jest, Babel, and ESLint by using the supplied package.json
+
+   ```bash
+   npm install
+
+### Usage
+You can use the code in this repository to explore and practice ES6 classes and OOP concepts in JavaScript. Make sure to follow the requirements and setup instructions mentioned above.
+
+### Contact
+
+If you have any questions or need to reach out, you can contact the project maintainer:
+
+- **Name:** Muideen
+- **Email:** [ilorimuideen000@gmail.com](mailto:ilorimuideen000@gmail.com)
+- **Twitter:** [@IloriMuideen](https://twitter.com/IloriMuideen)
+
+
 
 sudo bash nodesource_setup.sh
